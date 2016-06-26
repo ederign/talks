@@ -1,4 +1,4 @@
-package me.ederign;
+package me.ederign.dog;
 
 public class Dog {
 
@@ -8,12 +8,10 @@ public class Dog {
     private final BREED breed;
 
     public Dog( String name, int weight, BREED BREED ) {
-
         this.name = name;
         this.weight = weight;
         breed = BREED;
     }
-
 
     public String getName() {
         return name;
@@ -38,3 +36,4 @@ public class Dog {
                 '}';
     }
 }
+
