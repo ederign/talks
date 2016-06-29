@@ -31,9 +31,9 @@ public class Primes {
 
     public static void main( String[] args ) {
 
-//        primesInfinityStream( 1 )
+        primesInfinityStream( 1 )
 //                .limit( 10 )
-//                .forEach( i -> System.out.print( i+ ", " ) );
+                .forEach( i -> System.out.print( i+ ", " ) );
 
 //        primesInfinityStream( 1000 )
 //                .limit( 5 )
